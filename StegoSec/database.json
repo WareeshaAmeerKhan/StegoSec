@@ -1,0 +1,222 @@
+{
+  "users": [
+    {
+      "id": "muntaha",
+      "passwordHash": "mun_123",
+      "masterKeySalt": [
+        83,
+        88,
+        147,
+        243,
+        113,
+        198,
+        63,
+        48,
+        53,
+        100,
+        130,
+        185,
+        212,
+        84,
+        104,
+        135
+      ],
+      "imagesSent": 0,
+      "imagesReceived": 0,
+      "createdAt": 1778413804439
+    },
+    {
+      "id": "admin",
+      "passwordHash": "admin_123",
+      "masterKeySalt": [
+        188,
+        76,
+        178,
+        158,
+        183,
+        196,
+        221,
+        105,
+        204,
+        130,
+        91,
+        220,
+        106,
+        209,
+        99,
+        172
+      ],
+      "imagesSent": 0,
+      "imagesReceived": 0,
+      "createdAt": 1778413840694
+    },
+    {
+      "id": "haram",
+      "passwordHash": "har_123",
+      "masterKeySalt": [
+        66,
+        49,
+        202,
+        29,
+        253,
+        11,
+        255,
+        79,
+        25,
+        99,
+        47,
+        115,
+        35,
+        136,
+        72,
+        118
+      ],
+      "imagesSent": 0,
+      "imagesReceived": 0,
+      "createdAt": 1778413869953
+    }
+  ],
+  "friends": [
+    {
+      "userId": "haram",
+      "friendId": "muntaha",
+      "status": "accepted",
+      "timestamp": 1778413878808,
+      "id": 1,
+      "sharedSecret": [
+        250,
+        74,
+        167,
+        241,
+        107,
+        136,
+        121,
+        225,
+        156,
+        111,
+        239,
+        16,
+        110,
+        109,
+        54,
+        125,
+        29,
+        100,
+        168,
+        228,
+        232,
+        87,
+        136,
+        210,
+        169,
+        30,
+        83,
+        152,
+        237,
+        224,
+        184,
+        203
+      ],
+      "acceptedAt": 1778413890222
+    }
+  ],
+  "messages": [],
+  "auditLogs": [
+    {
+      "timestamp": 1778413804501,
+      "action": "SIGNUP",
+      "details": "New agent registered",
+      "success": true,
+      "userId": "muntaha",
+      "id": 1
+    },
+    {
+      "timestamp": 1778413826143,
+      "action": "LOGOUT",
+      "details": "Session terminated",
+      "success": true,
+      "userId": "muntaha",
+      "id": 2
+    },
+    {
+      "timestamp": 1778413840710,
+      "action": "SIGNUP",
+      "details": "New agent registered",
+      "success": true,
+      "userId": "admin",
+      "id": 3
+    },
+    {
+      "timestamp": 1778413858510,
+      "action": "LOGOUT",
+      "details": "Session terminated",
+      "success": true,
+      "userId": "admin",
+      "id": 4
+    },
+    {
+      "timestamp": 1778413869965,
+      "action": "SIGNUP",
+      "details": "New agent registered",
+      "success": true,
+      "userId": "haram",
+      "id": 5
+    },
+    {
+      "timestamp": 1778413878832,
+      "action": "FRIEND",
+      "details": "Request sent to muntaha",
+      "success": true,
+      "userId": "haram",
+      "id": 6
+    },
+    {
+      "timestamp": 1778413880370,
+      "action": "LOGOUT",
+      "details": "Session terminated",
+      "success": true,
+      "userId": "haram",
+      "id": 7
+    },
+    {
+      "timestamp": 1778413885437,
+      "action": "LOGIN",
+      "details": "Authenticated",
+      "success": true,
+      "userId": "muntaha",
+      "id": 8
+    },
+    {
+      "timestamp": 1778413890234,
+      "action": "FRIEND",
+      "details": "Accepted request from haram",
+      "success": true,
+      "userId": "muntaha",
+      "id": 9
+    },
+    {
+      "timestamp": 1778413894165,
+      "action": "PROFILE",
+      "details": "Master Key revealed",
+      "success": true,
+      "userId": "muntaha",
+      "id": 10
+    },
+    {
+      "timestamp": 1778413918955,
+      "action": "CRYPTO",
+      "details": "AES-256-GCM encryption applied for haram",
+      "success": true,
+      "userId": "muntaha",
+      "id": 11
+    },
+    {
+      "timestamp": 1778413919083,
+      "action": "STEGO",
+      "details": "LSB payload embedded in carrier (1200×675)",
+      "success": true,
+      "userId": "muntaha",
+      "id": 12
+    }
+  ]
+}
